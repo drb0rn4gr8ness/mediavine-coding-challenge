@@ -1,0 +1,42 @@
+{{!-- <div class="hero-body"> --}}
+    <div class="container px-4 py-5">
+    <h2 id="-installation-"><strong>Installation</strong></h2>
+    <ol>
+    <li>Clone the Repo `git clone <a href="https://github.com/drb0rn4gr8ness/mediavine-coding-challenge">https://github.com/drb0rn4gr8ness/mediavine-coding-challenge</a></li>
+    <li>Change into the tallyscore Directory</li>
+    </ol>
+    <pre><code><span class="hljs-built_in">cd</span> tallyscore
+    </code></pre><ol>
+    <li>Install dependencies</li>
+    </ol>
+    <pre><code>npm <span class="hljs-keyword">install</span>
+    </code></pre><h2 id="-usage-"><strong>Usage</strong></h2>
+    <p>There are two different versions of the application that have been made available.</p>
+    <h3 id="-cli-"><strong>CLI</strong></h3>
+    <p>The <strong>CLI</strong> version is to be used from the command line. It accepts 1 argument which is the file that you would like to tally scores for. Other options include <code>--version</code> to see the current version and <code>--help</code> to get help if you forget the commands.</p>
+    <p>The <strong>CLI</strong> version can be ran with 1 of 2 methods.</p>
+    <ol>
+    <li>Running the file directly from the directory<pre><code>bin/tallyscores<span class="hljs-selector-class">.js</span> -f &lt;filename&gt;
+    </code></pre></li>
+    <li>Installing the tool globally<pre><code class="lang-bash">npm install -g .
+    tallyscores -f <span class="hljs-tag">&lt;<span class="hljs-name">filename</span>&gt;</span>
+    </code></pre>
+    </li>
+    </ol>
+    <h3 id="-webversion-"><strong>WebVersion</strong></h3>
+    <p>The <strong>Web</strong> version is made accessible from the web browser. You can upload the file and the web page will display the results.</p>
+    <p>The <strong>Web</strong> version runs by default on port 8080. However, the application must be started first. To use the application use the following commands.</p>
+    <ol>
+    <li>Start the server with <code>npm start</code></li>
+    <li>Browse to localhost:8080</li>
+    <li>Upload your file</li>
+    </ol>
+    <blockquote>
+    <p>NOTE: Example Files can be found in the examples folder</p>
+    </blockquote>
+    <script>
+            document.getElementById('#documentation').classList.add('is-active')
+        </script>
+    </div>
+{{!-- </div> --}}
+
